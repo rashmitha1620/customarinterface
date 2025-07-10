@@ -31,9 +31,14 @@
 +                <p className="text-xs md:text-sm text-center">Add some products to get started</p>
                </div>
              ) : (
+             )
+             }
 -              <div className="space-y-4">
 +              <div className="space-y-3 md:space-y-4">
                  {cart.map((item) => (
+)
+)
+}
 -                  <div key={item.id} className="flex items-center space-x-3 bg-gray-50 p-3 rounded-lg">
 +                  <div key={item.id} className="flex items-center space-x-2 md:space-x-3 bg-gray-50 p-2 md:p-3 rounded-lg">
                      <img
@@ -85,6 +90,8 @@
 @@ .. @@
            {/* Footer */}
            {cart.length > 0 && (
+                       )
+                       }
 -            <div className="border-t p-4 space-y-4">
 +            <div className="border-t p-3 md:p-4 space-y-3 md:space-y-4">
                <div className="flex justify-between items-center">
